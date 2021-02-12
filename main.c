@@ -10,7 +10,7 @@ void triFusion(int i, int j, int tab[], int tmp[]) {
     int pd = m + 1; //pd pointe au debut du sous-tableau de droite //pd points on the right sub-array
     int c;          //compteur //counter
 // on boucle de i a j pour remplir chaque element du tableau final fusionne
-// loop from i to j to fill every element of the final table
+// loop from i to j to fill every element of the final sorted array
     for(c = i; c <= j; c++) {
         if(pg == m + 1) { //le pointeur du sous-tableau de gauche a atteint la limite //left sub-array pointer reached the limit
             tmp[c] = tab[pd];
